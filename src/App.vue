@@ -1,13 +1,13 @@
 <script setup>
-import PvToolbar from '@/get-data/components/toolbar.component.vue';
-import MainSection from '@/get-data/components/main-section.component.vue'
-import PvFooter from '@/get-data/components/pv-footer.component.vue'
+import PvToolbar from '@/public/components/pv-toolbar.component.vue';
+import CustomSection from '@/public/components/custom-section.component.vue'
+import CustomFooter from '@/public/components/custom-footer.component.vue'
 </script>
 
 <template>
   <pv-toolbar></pv-toolbar>
-  <main-section></main-section>
-  <pv-footer></pv-footer>
+  <custom-section></custom-section>
+  <custom-footer></custom-footer>
 </template>
 
 <style>

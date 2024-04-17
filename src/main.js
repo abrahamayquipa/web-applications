@@ -7,11 +7,13 @@ import App from "./App.vue";
 
 import Button from 'primevue/button';
 import Card from 'primevue/card';
+import Toolbar from 'primevue/toolbar';
 
 const app = createApp(App);
 
 app.component('Button', Button);
 app.component('Card', Card);
+app.component('Toolbar', Toolbar);
 
 app.use(PrimeVue, { ripple: true });
 

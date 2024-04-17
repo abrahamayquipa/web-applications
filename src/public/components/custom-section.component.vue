@@ -1,5 +1,5 @@
 <script setup>
-import PvCard from '@/get-data/components/pv-card.component.vue'
+import PvCard from '@/information/components/pv-card.component.vue'
 </script>
 
 <template>

@@ -8,7 +8,7 @@
   </footer>
 </template>
 
-<style scoped>
+<style>
 .footer {
   display: flex;
   align-items: center;

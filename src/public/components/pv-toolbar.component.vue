@@ -2,12 +2,14 @@
 </script>
 
 <template>
-  <nav class="toolbar">
-    <span class="toolbar__text">About Peru</span>
-  </nav>
+  <Toolbar class="toolbar">
+    <template #center>
+        <span class="toolbar__text">About Peru</span>
+    </template>
+  </Toolbar>
 </template>
 
-<style scoped>
+<style>
 .toolbar {
   display: flex;
   justify-content: center;
